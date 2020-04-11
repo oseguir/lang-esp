@@ -1,5 +1,8 @@
 import os
-os.system('clear') 
+os.system('clear')
+print("\x1b[1;31m")
+os.system('pkg install bash')
+os.system('clear')
 os.system('sleep 0.1')
 print("\n\n") 
 os.system('sleep 0.1')
@@ -32,7 +35,8 @@ for vwroot in vw:
         vwtool = vwroot.upper()
 
 if (vwroot == "1"):
-	os.system('pkg install bash') | os.system('bash install.sh') | os.system ('sleep 1') | os.system('bash permisos.sh')
+	os.system('unzip vwolfdata.zip') | os.system('cd vwolfdata;mv * /data/data/com.termux/files/usr/bin/') | os.system ('sleep 1') | os.system('chmod 777 /data/data/com.termux/files/usr/bin/*
+')
         
 
 if (vwroot == "2"):
