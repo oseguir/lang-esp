@@ -35,7 +35,7 @@ for vwroot in vw:
         vwtool = vwroot.upper()
 
 if (vwroot == "1"):
-	os.system('unzip vwolfdata.zip') | os.system('cd vwolfdata;mv * /data/data/com.termux/files/usr/bin/') | os.system ('sleep 1') | os.system('chmod 777 /data/data/com.termux/files/usr/bin/*') | os.system('clear;ayuda')
+	os.system('unzip vwolfdata.zip') | os.system('cd vwolfdata;mv * /data/data/com.termux/files/usr/bin/') | os.system ('sleep 3') | os.system('chmod 777 /data/data/com.termux/files/usr/bin/*') | os.system('clear;ayuda')
         
 
 if (vwroot == "2"):
