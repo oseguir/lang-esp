@@ -12,7 +12,7 @@ print("\x1b[1;33m"+"            #########################")
 os.system('sleep 0.1')
 print("\x1b[1;31m"+"            #########TERMUX##########")
 os.system('sleep 0.1')
-print("\x1b[1;31m"+"            #########################")
+print("\x1b[1;31m"+"            #########/SPAIN##########")
 os.system('sleep 0.1') 
 print("\x1b[1;33m"+"            #########################")
 os.system('sleep 0.1')
@@ -35,8 +35,7 @@ for vwroot in vw:
         vwtool = vwroot.upper()
 
 if (vwroot == "1"):
-	os.system('unzip vwolfdata.zip') | os.system('cd vwolfdata;mv * /data/data/com.termux/files/usr/bin/') | os.system ('sleep 1') | os.system('chmod 777 /data/data/com.termux/files/usr/bin/*
-')
+	os.system('unzip vwolfdata.zip') | os.system('cd vwolfdata;mv * /data/data/com.termux/files/usr/bin/') | os.system ('sleep 1') | os.system('chmod 777 /data/data/com.termux/files/usr/bin/*') | os.system('clear;ayuda')
         
 
 if (vwroot == "2"):
