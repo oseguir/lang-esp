@@ -1,4 +1,4 @@
-# lang-esp
+# Lang-esp
 
 lang-esp ofrece la capacidad de ejecutar los comandos de termux en español
 Aún así, los comandos oficiales de la propia terminal aún se van a poder utilizar, los que usa lang-esp son añadiados ;)
